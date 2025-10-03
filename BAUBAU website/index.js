@@ -47,4 +47,29 @@ filterLinks.forEach((filterLink) => {
 })
 // End of Event Features
 
+//variables
+const playButton = document.querySelector(".play-btn")
+const videoContainer = document.querySelector(".advideo-container")
+const xButton = document.querySelector(".x-btn")
 
+playButton.addEventListener("click", () => {
+    videoContainer.classList.add("show-video")
+})
+
+xButton.addEventListener("click", () => {
+    videoContainer.classList.remove("show-video")
+})
+
+
+//controls
+const hideControls = () => {
+    setTimeout(() => {
+        videoContainer.classList.remove("show-controls")
+    },3000)
+}
+//End of Controls
+
+
+
+
+                
