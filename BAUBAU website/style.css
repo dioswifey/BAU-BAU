@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 
 
@@ -11,7 +13,7 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Luckiest Guy", cursive;
 }
 
 html {
@@ -69,7 +71,7 @@ header {
 }
 
 .logo span:nth-child(1) {
-  font-family: "Inter", sans-serif;
+   font-family: "Luckiest Guy", cursive;
   font-size: 3.5rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -79,7 +81,7 @@ header {
 .logo span:nth-child(2) {
   display: inline-block;
   transform: translateY(-0.6rem);
-  font-family: "Inter", sans-serif;
+   font-family: "Luckiest Guy", cursive;
   letter-spacing: 0.1rem;
   color: rgba(119, 117, 128, 0.954);
   font-size: 1.5rem;
@@ -129,7 +131,7 @@ header {
 }
 
 .nav-link {
-  font-size: 1.6rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-transform: uppercase;
   color: rgba(119, 117, 128, 0.954);
@@ -195,7 +197,7 @@ header {
 
 .dropdown-1-left h3,
 .dropdown-1-right h3 {
-  font-family: Josefin Sans, sans-serif;
+  font-family: "Luckiest Guy", cursive;
   font-size: 2.2rem;
   color: hsla(251, 4%, 48%, 0.768);
   padding-bottom: 1rem;
@@ -218,7 +220,7 @@ header {
 }
 
 .features-list-item span {
-  font-size: 2.2rem;
+  font-size: 3.4rem;
   font-weight: bold;
   text-transform: uppercase;
   color: rgba(119, 117, 128, 0.954);
@@ -249,19 +251,11 @@ header {
   align-items: center;
 }
 
-.dropdown-service i {
-  width: 3.8rem;
-  font-size: 2.5rem;
-  color: hsla(300, 25%, 57%, 0.684);
-  transition: color 0.3s;
-}
 
 .dropdown-service-item span {
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   text-transform: uppercase;
   color: rgba(119, 117, 128, 0.954);
-  padding-left: 1rem;
-  transition: color 0.3s;
   transition: color 0.3s;
 }
 
@@ -350,7 +344,7 @@ header {
 .TopSellers-item p {
   font-size: 1.5rem;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+   font-family: "Luckiest Guy", cursive;
   font-weight: 550;
   color: rgba(119, 117, 128, 0.954);
 }
@@ -381,7 +375,7 @@ header {
 
 
 .contact-list span {
-  font-size: 1.5rem;
+  font-size: 2.1rem;
   font-weight: 800;
   text-transform: uppercase;
   text-align: center;
@@ -408,11 +402,11 @@ header {
 
 /*Dropdown 4*/
 .dropdown-4 {
-  width: 24rem;
-  height: 28rem;
+  width: 34rem;
+  height: 33rem;
   left: 50%;
   transform: translateX(-50%);
-  padding: 2.5rem; 
+  padding: 3.5rem 2rem;
 }
 .account-input-group {
   display: flex;
@@ -427,7 +421,7 @@ header {
   margin-bottom: 2rem;
   border: none;
   border-radius: 0.5rem;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
   color: black;
 }
 
@@ -436,7 +430,7 @@ header {
 }
 
 .check label {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   color: rgba(119, 117, 128, 0.954);
   margin-top: 1.2rem;
@@ -447,17 +441,17 @@ header {
   height: 4rem;
   background-color: hsla(61, 78%, 86%, 0.241);
   border-radius: 1.2rem;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   font-weight: bold;
   text-transform: uppercase;
   color: hsla(0, 0%, 0%, 0.59);
   letter-spacing: 0.3  5rem;
-  margin: 3rem 0 1.2rem 0;
+  margin: 6rem 0 1rem 0;
   cursor: pointer;
 }
 
 .account-form p {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 300;
   text-align: center;
 }
@@ -511,7 +505,7 @@ header {
 }
 
 .banner h1 {
-  font-family: 'Inter', sans-serif;
+   font-family: "Luckiest Guy", cursive;
   font-size: 11rem;
   color: rgba(119, 117, 128, 0.954);
   text-shadow: 0 1rem 0.3rem rgba(0, 0, 0, 0.3);
@@ -521,7 +515,7 @@ header {
   font-size: 2.3rem;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
+   font-family: "Luckiest Guy", cursive;;
   color: black;
   text-shadow: 0 0 0.2rem black;
   font-weight: 300;
@@ -616,8 +610,8 @@ header {
 }
    
 .bauclub-wrapper h1 {
-  font-family: "Spectral SC", serif;
-  font-size: 4.7rem;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 5.7rem;
   text-transform: uppercase;
   font-weight: 900;
   color: rgb(11, 1, 58);
@@ -632,6 +626,8 @@ header {
   text-transform: uppercase;
   margin-top: -5rem;
   margin-bottom: 10rem;
+  font-size: 3.1rem;
+  letter-spacing: 0.1em;
 }
 
 
@@ -676,14 +672,14 @@ header {
   margin-bottom: 2.7rem;
   color: #000000;
   letter-spacing: 0.22rem;
-  font-family: "Spectral SC", serif;
+   font-family: "Luckiest Guy", cursive;
 }
 
 .service p{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 550;
+   font-family: "Luckiest Guy", cursive;
+  font-weight: 350;
   margin-top: 5.9rem;
 }
 
@@ -708,17 +704,17 @@ header {
 
 
 .welEvent h1 {
-  font-family: "Bungee", sans-serif;
+   font-family: "Luckiest Guy", cursive;
   font-weight: 600;
   font-size: 5.6rem;
   letter-spacing: 0.4rem;
-  color:#ff5985;
+  color:#1b0108;
   margin-bottom: 4rem;
-  text-shadow: 0.5rem 0.8rem 1.3rem rgba(45, 1, 42, 0.24);""
+  text-shadow: 0.5rem 0.8rem 1.3rem rgba(45, 1, 42, 0.24);
 }
 
 .welEvent p {
-  font-family: "Bungee Inline", sans-serif;
+   font-family: "Luckiest Guy", cursive;
   font-weight: 100;
   font-size: 2.7rem;
   color: rgba(119, 117, 128, 0.954);
@@ -749,7 +745,7 @@ header {
   color: rgba(0, 0, 0, 0.471);
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  font-family: "Bungee Inline", sans-serif;
+   font-family: "Luckiest Guy", cursive;
 }
 
 .filter-nav-link:hover {
@@ -803,12 +799,282 @@ header {
   z-index: 1;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.635);
 }
-
-
-
-
-
 /*End of Event Features*/
-/*End of Container*/
 
+/*Featured Video*/
+.ftVideo{
+  width:115%;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(to left, #fffce1f3,white) 
+}
+
+.ftVideo::before{
+  content: '';
+  width: 80rem;
+  height: 80rem;
+  background-color: (to bottom, transparent, #0e19f33e, rgb(176, 176, 234));
+  z-index:10;
+  position: abslute;
+  bottom:-5%;
+  right: 10%;
+  filter: blur(7rem);
+}
+
+
+.ftVideo img::before{
+  content: '';
+  width: 80rem;
+  height: 80rem;
+  background-color: (to bottom, transparent, #0a0d443e, rgb(176, 176, 234));
+  z-index:10;
+  position: abslute;
+  bottom:5%;
+  right: 10%;
+  filter: blur(4rem);
+}
+ 
+.ftVideo::before{
+  content: "";
+  width: 80rem;
+  height: 80rem;
+  background-color: (to bottom, transparent, #0e19f33e, rgb(176, 176, 234));
+  z-index:4;
+  position: abslute;
+  bottom:-5%;
+  right: 10%;
+  filter: blur(7rem);
+}
+
+.ftVideo-left{
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25rem 10rem 0 10rem;
+}
+
+.ftVideo-left h1{
+   font-family: "Luckiest Guy", cursive;
+  font-size: 5.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: rgb(47, 46, 53);
+  text-shadow: 0.5rem 0.2rem rgba(0, 0, 0, 0.177);
+  margin-bottom: 3rem;
+}
+
+.ftVideo-left p {
+  width:60rem;
+  font-family: "Play", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: rgba(18, 109, 127, 0.809);
+  text-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 7rem;
+}
+
+.ftVideo-btn{
+  width: 50rem;
+  height: 5rem;
+  background-color:#066e73;
+  border: none;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  font-size: 2.9rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.ftVideo-right{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.play-button {
+  position: absolute;
+  top: 60%;
+  left: -10%;
+  z-index: 3;
+}
+
+.play-btn {
+  width: 20rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 1rem 10rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 7rem;
+  color: rgb(0, 1, 4);
+}
+
+.play-btn:hover {
+  transform:scale(1.2);
+}
+
+.play-btn::before{
+  content: "";
+  width: 26rem;
+  height: 26rem;
+  background-color: rgba(217, 215, 230, 0.399);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow:  0 1rem 10rem rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+
+.play-btn:hover::before {
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+/*advideo and x-button*/
+.advideo-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(225, 236, 237, 0.152);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+.advideo-container.show-video {
+  visibility: visible;
+  opacity: 1;
+}
+
+.advideo {
+  width: 90rem;
+  height: auto;
+  position: relative;
+  
+}
+
+.x-btn {
+  position: absolute;
+  top: -8%;
+  right: 0;
+  font-size: 3rem;
+  cursor: pointer;
+  color: rgba(65, 10, 10, 0.72);
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1rem 10rem rgb(0, 0, 0);
+}
+
+/*End of advideo and x-button*/
+/*End of Featured Video*/
+
+/*Subscribe*/
+.subscribe {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, #fffce1f3,white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-wrapper {
+  width: 80rem;
+  height: 50rem;
+  background-color: #e3e4fb;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.subscribe-icon span {
+  font-size: 9rem;
+  color: rgb(241, 253, 137);
+  box-shadow:0rem 1rem 4rem;
+}
+
+.subscribe-wrapper h1 {
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: 200;
+  font-family: "Luckiest Guy", cursive;
+} 
+
+.subscribe-wrapper p {
+  font-size: 2.5rem;
+  color:black;
+  font-family: "Luckiest Guy", cursive;
+  margin-top: -6rem;
+}
+
+.subscribe-input-group {
+  width: 55rem;
+  height: 5.5rem;
+  position: relative;
+  
+}
+
+.subscribe-input-group input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: lavenderblush;
+  font-size: 2.5rem;
+  color: rgb(122, 122, 253);
+  border: none;
+  border-radius: 5rem;
+  padding: 0 2rem;
+}
+
+
+.subscribe-input-group button {
+  width: 16rem;
+  height: 5.5rem;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top:0;
+  right:0;
+  border: none;
+  border-radius: 12em;
+  letter-spacing: 0.1rem;
+  font-size: 2.2rem;
+}
+
+
+.subscribe-input-group input::placeholder {
+  font-size: 1.6rem;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.2rem;
+ 
+}
+/*End of Subscribe*/
+
+/*Footer*/
+.footer-social-media h3 {
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
+}
+/*End of Footer*/
+
+/*End of Container*/
 
